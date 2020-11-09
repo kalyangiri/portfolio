@@ -40,7 +40,7 @@ a {
 
 header {
   position: fixed;
-  z-index: 2;
+  z-index: 3;
   width: 100%;
 }
 
@@ -55,13 +55,42 @@ main {
 
   .icons {
     margin-top: 1rem;
+    height: 20vh;
+    display: flex;
+    justify-content: 0;
+    align-items: 0;
 
     a {
+      height: 70px;
+      width: 70px;
+      background-color: #444;
+      border-radius: 30px;
+      text-align: center;
+      margin: 15px;
+      line-height: 70px;
+      box-shadow: 1px 4px 2px 2px #dcdde1;
+
       padding: 0.4rem;
 
       &:hover {
+        transform: scale(1.5);
         color: $secondary-color;
         @include easeOut();
+      }
+      .fa-linkedin {
+        color: #0a66c2;
+      }
+      .fa-facebook {
+        color: #0b84ed;
+      }
+      .fa-github {
+        color: #fff;
+      }
+      .fa-twitter {
+        color: #1da1f2;
+      }
+      .fa-instagram {
+        color: #c435a5;
       }
     }
   }
@@ -168,6 +197,7 @@ main {
 
 //Button Styles
 
+// <style>
 .btn {
   display: block;
   padding: 0.5rem 1rem;

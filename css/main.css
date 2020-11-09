@@ -136,7 +136,7 @@ a {
 
 header {
   position: fixed;
-  z-index: 2;
+  z-index: 3;
   width: 100%; }
 
 .text-secondary {
@@ -146,12 +146,35 @@ main {
   padding: 4rem;
   min-height: calc(100vh - 60px); }
   main .icons {
-    margin-top: 1rem; }
+    margin-top: 1rem;
+    height: 20vh;
+    display: flex;
+    justify-content: 0;
+    align-items: 0; }
     main .icons a {
+      height: 70px;
+      width: 70px;
+      background-color: #444;
+      border-radius: 30px;
+      text-align: center;
+      margin: 15px;
+      line-height: 70px;
+      box-shadow: 1px 4px 2px 2px #dcdde1;
       padding: 0.4rem; }
       main .icons a:hover {
+        transform: scale(1.5);
         color: #eece1a;
         transition: all 1s ease-out; }
+      main .icons a .fa-linkedin {
+        color: #0a66c2; }
+      main .icons a .fa-facebook {
+        color: #0b84ed; }
+      main .icons a .fa-github {
+        color: #fff; }
+      main .icons a .fa-twitter {
+        color: #1da1f2; }
+      main .icons a .fa-instagram {
+        color: #c435a5; }
   main#home {
     overflow: hidden; }
     main#home h1 {

@@ -57,14 +57,14 @@
       height: 250px;
       background: url(../img/portrait.png);
       border-radius: 50%;
-      border: solid 3px #0a66c2; }
+      border: solid 3px #09d8e7; }
   .menu .nav-item {
     transform: translate3d(600px, 0, 0);
     transition: all 1s ease-out; }
     .menu .nav-item.show {
       transform: translate3d(0, 0, 0); }
     .menu .nav-item.current > a {
-      color: #0a66c2; }
+      color: #09d8e7; }
   .menu .nav-link {
     display: inline-block;
     position: relative;
@@ -76,7 +76,7 @@
     text-decoration: none;
     transition: all 1s ease-out; }
     .menu .nav-link:hover {
-      color: #0a66c2; }
+      color: #09d8e7; }
 
 .nav-item:nth-child(1) {
   transition-delay: 0.1s; }
@@ -140,7 +140,7 @@ header {
   width: 100%; }
 
 .text-secondary {
-  color: #0a66c2 !important; }
+  color: #09d8e7 !important; }
 
 main {
   padding: 4rem;
@@ -163,7 +163,7 @@ main {
       padding: 0.4rem; }
       main .icons a:hover {
         transform: scale(1.5);
-        color: #0a66c2;
+        color: #09d8e7;
         transition: all 1s ease-out; }
       main .icons a .fa-linkedin {
         color: #0a66c2; }
@@ -189,7 +189,7 @@ main {
     grid-area: bioimage;
     margin: auto;
     border-radius: 50%;
-    border: #0a66c2 3px solid; }
+    border: #09d8e7 3px solid; }
   .about-info .bio {
     grid-area: bio;
     font-size: 1.5rem; }
@@ -208,7 +208,7 @@ main {
   .about-info .job {
     background: #515151;
     padding: 0.5rem;
-    border-bottom: #0a66c2 5px solid; }
+    border-bottom: #09d8e7 5px solid; }
 
 .projects {
   display: grid;
@@ -219,7 +219,7 @@ main {
     border: 3px #fff solid; }
     .projects img:hover {
       opacity: 0.5;
-      border-color: #0a66c2;
+      border-color: #09d8e7;
       transition: all 1s ease-out; }
 
 .boxes {
@@ -230,16 +230,16 @@ main {
   margin-top: 1rem; }
   .boxes div {
     font-size: 2rem;
-    border: 3px #fff;
+    border: 3px #fff solid;
     padding: 1.5rem 2.5rem;
     margin-bottom: 3rem;
     transition: all 1s ease-out; }
     .boxes div:hover {
       padding: 0.5rem 1.5rem;
-      background: #0a66c2;
-      color: #fff; }
+      background: #09d8e7;
+      color: #000; }
       .boxes div:hover span {
-        color: #fff; }
+        color: #000; }
 
 .btn, .btn-dark, .btn-light {
   display: block;
@@ -247,8 +247,8 @@ main {
   border: 0;
   margin-bottom: 0.3rem; }
   .btn:hover, .btn-dark:hover, .btn-light:hover {
-    background: #0a66c2;
-    color: #fff; }
+    background: #09d8e7;
+    color: #000; }
 
 .btn-dark {
   background: black;

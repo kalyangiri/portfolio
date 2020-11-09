@@ -316,4 +316,6 @@ main {
     main .icons {
       padding-right: 10 rem; }
   .projects {
-    grid-template-columns: 1fr; } }
+    grid-template-columns: 1fr; }
+  .boxes {
+    padding-right: 1.5rem; } }
